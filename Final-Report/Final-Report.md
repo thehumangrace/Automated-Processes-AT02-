@@ -708,9 +708,10 @@ if __name__ == "__main__":
 - **Corrected Code:** `users[i], users[j] = users[j], users[i]`
 - **Screenshots:** 
 
-![AT02-10.1](../Final-Report/Assessment%202%20Task%2010.1.png)
+![AT02-10.5](../Final-Report/Assessment%202%20Task%2010.5.png)
 
-![AT02-10.2](../Final-Report/Assessment%202%20Task%2010.2.png)
+![AT02-10.6](../Final-Report/Assessment%202%20Task%2010.6.png)
+
 
 ### Enhancements Made
 
@@ -722,7 +723,7 @@ if __name__ == "__main__":
 - **Benefit:** Removing `sys.exit()` makes the code cleaner and easier to read.
 - **Screenshots:** 
 
-![AT02-10.3](../Final-Report/Assessment%202%20Task%2010.3.png)
+![AT02-10.7](../Final-Report/Assessment%202%20Task%2010.7.png)
 
 ![AT02-10.4](../Final-Report/Assessment%202%20Task%2010.4.png)
 
@@ -736,11 +737,13 @@ if __name__ == "__main__":
 - **Status:** ✗ FAILED
 - **Screenshot:** 
 
-![AT02-10.5](../Final-Report/Assessment%202%20Task%2010.5.png)
+![AT02-10.1](../Final-Report/Assessment%202%20Task%2010.1.png)
 
-![AT02-10.6](../Final-Report/Assessment%202%20Task%2010.6.png)
+![AT02-10.2](../Final-Report/Assessment%202%20Task%2010.2.png)
 
-![AT02-10.7](../Final-Report/Assessment%202%20Task%2010.7.png)
+![AT02-10.3](../Final-Report/Assessment%202%20Task%2010.3.png)
+
+
 
 #### Test 2: Verifying Function
 
@@ -751,6 +754,7 @@ if __name__ == "__main__":
 - **Screenshot:** 
 
 ![AT02-10.8](../Final-Report/Assessment%202%20Task%2010.8.png)
+
 
 ---
 
