@@ -1,12 +1,15 @@
+```mermaid
+
+
 %%Author: Grace Garrett
 
 %%Student ID: 13260436
 
-%%Date Last Modified: 19/03/2026
+%%Date Last Modified: 15/04/2026
 
 
 
-graph TD
+flowchart TD
     A([Start]) --> B[/Input positive integer n/]
     B --> C[Set counter = 0]
     C --> D{Is n > 1?}
@@ -22,14 +25,16 @@ graph TD
 
 
 
-%% graph td - Draw a flowchart from Top Down
+%% flowchart td - Draw a flowchart from Top Down
 
 %% ([Start]) and ([End]) - Gives rounded edges 
 
-%% [/Input/]  - Makes parallelograms for operations
+%% [/Input+Output/]  - Makes parallelograms for operations
 
 %% {Is n even?} - Diamond if/else logic
 
 %% [Process] - Rectangle calculations 
 
 %% K --> D - The while loop arrow 
+
+```
