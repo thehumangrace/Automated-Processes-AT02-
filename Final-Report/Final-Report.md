@@ -511,7 +511,8 @@ if [ $# -eq 0 ]; then
     exit 1
 else
     ping_hosts "$@"
-fi```
+fi
+```
 
 
 ### After Debugging
@@ -644,7 +645,8 @@ def main():
     write_users_to_file(sorted_users, output_file)
 
 if __name__ == "__main__":
-    sys.exit(main())```
+    sys.exit(main())
+```
 
 
 ### After Debugging
@@ -725,7 +727,9 @@ if __name__ == "__main__":
 
 ![AT02-10.7](../Final-Report/Assessment%202%20Task%2010.7.png)
 
-![AT02-10.4](../Final-Report/Assessment%202%20Task%2010.4.png)
+![AT02-10.8](../Final-Report/Assessment%202%20Task%2010.8.png)
+
+
 
 ### Testing Results
 
@@ -753,8 +757,7 @@ if __name__ == "__main__":
 - **Status:** ✓ PASSED
 - **Screenshot:** 
 
-![AT02-10.8](../Final-Report/Assessment%202%20Task%2010.8.png)
-
+![AT02-10.4](../Final-Report/Assessment%202%20Task%2010.4.png)
 
 ---
 
