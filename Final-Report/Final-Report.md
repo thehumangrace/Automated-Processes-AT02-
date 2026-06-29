@@ -453,9 +453,9 @@ done
 - **Corrected Code:** `if [ $# -eq 0 ]`
 - **Screenshots:**
 
-![AT02-8.1](../Final-Report/Assessment%202%20Task%208.1.png)
+![AT02-8.1](../Final-Report/photos/AT-02-8.1.png)
 
-![AT02-8.2](../Final-Report/Assessment%202%20Task%208.2.png)
+![AT02-8.2](../Final-Report/photos/AT-02-8.2.png)
 
 
 ### Testing Results
@@ -476,7 +476,7 @@ done
 - **Status:** ✓ PASSED
 - **Screenshot:** 
 
-![AT02-8.3](../Final-Report/Assessment%202%20Task%208.3.png)
+![AT02-8.3](../Final-Report/photos/AT-02-8.3.png)
 
 
 ---
@@ -553,9 +553,9 @@ fi
 - **Corrected Code:** `echo "Connection to $host successful"`
 - **Screenshots:** 
 
-![AT02-9.1](../Final-Report/Assessment%202%20Task%209.1.png)
+![AT02-9.1](../Final-Report/photos/AT-02-9.1.png)
 
-![AT02-9.2](../Final-Report/Assessment%202%20Task%209.2.png)
+![AT02-9.2](../Final-Report/photos/AT-02-9.2.png)
 
 #### Error #2
 
@@ -566,9 +566,9 @@ fi
 - **Corrected Code:** `echo "Connection to $host failed"`
 - **Screenshots:** 
 
-![AT02-9.3](../Final-Report/Assessment%202%20Task%209.3.png)
+![AT02-9.3](../Final-Report/photos/AT-02-9.3.png)
 
-![AT02-9.4](../Final-Report/Assessment%202%20Task%209.4.png)
+![AT02-9.4](../Final-Report/photos/AT-02-9.4.png)
 
 ### Testing Results
 
@@ -588,7 +588,7 @@ fi
 - **Status:** ✓ PASSED
 - **Screenshot:** 
 
-![AT02-9.5](../Final-Report/Assessment%202%20Task%209.5.png)
+![AT02-9.5](../Final-Report/photos/AT-02-9.5.png)
 
 ---
 
@@ -710,9 +710,9 @@ if __name__ == "__main__":
 - **Corrected Code:** `users[i], users[j] = users[j], users[i]`
 - **Screenshots:** 
 
-![AT02-10.5](../Final-Report/Assessment%202%20Task%2010.5.png)
+![AT02-10.5](../Final-Report/photos/AT-02-10.5.png)
 
-![AT02-10.6](../Final-Report/Assessment%202%20Task%2010.6.png)
+![AT02-10.6](../Final-Report/photos/AT-02-10.6.png)
 
 
 ### Enhancements Made
@@ -725,9 +725,9 @@ if __name__ == "__main__":
 - **Benefit:** Removing `sys.exit()` makes the code cleaner and easier to read.
 - **Screenshots:** 
 
-![AT02-10.7](../Final-Report/Assessment%202%20Task%2010.7.png)
+![AT02-10.7](../Final-Report/photos/AT-02-10.7.png)
 
-![AT02-10.8](../Final-Report/Assessment%202%20Task%2010.8.png)
+![AT02-10.8](../Final-Report/photos/AT-02-10.8.png)
 
 
 
@@ -741,11 +741,11 @@ if __name__ == "__main__":
 - **Status:** ✗ FAILED
 - **Screenshot:** 
 
-![AT02-10.1](../Final-Report/Assessment%202%20Task%2010.1.png)
+![AT02-10.1](../Final-Report/photos/AT-02-10.1.png)
 
-![AT02-10.2](../Final-Report/Assessment%202%20Task%2010.2.png)
+![AT02-10.2](../Final-Report/photos/AT-02-10.2.png)
 
-![AT02-10.3](../Final-Report/Assessment%202%20Task%2010.3.png)
+![AT02-10.3](../Final-Report/photos/AT-02-10.3.png)
 
 
 
@@ -757,7 +757,7 @@ if __name__ == "__main__":
 - **Status:** ✓ PASSED
 - **Screenshot:** 
 
-![AT02-10.4](../Final-Report/Assessment%202%20Task%2010.4.png)
+![AT02-10.4](../Final-Report/photos/AT-02-10.4.png)
 
 ---
 
