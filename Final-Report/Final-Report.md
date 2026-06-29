@@ -451,7 +451,12 @@ done
 - **Error Type:** Logic Error
 - **Problem:** The condition uses `-lt 0` (less than 0), which can never be true for an argument count. This means the argument check never triggers.
 - **Corrected Code:** `if [ $# -eq 0 ]`
-- **Screenshots:** <!-- Insert screenshot here -->
+- **Screenshots:**
+
+![AT02-8.1](../Final-Report/Assessment%202%20Task%208.1.png)
+
+![AT02-8.2](../Final-Report/Assessment%202%20Task%208.2.png)
+
 
 ### Testing Results
 
@@ -469,7 +474,10 @@ done
   https://www.github.com: Available
   ```
 - **Status:** ✓ PASSED
-- **Screenshot:** <!-- Insert screenshot here -->
+- **Screenshot:** 
+
+![AT02-8.3](../Final-Report/Assessment%202%20Task%208.3.png)
+
 
 ---
 
@@ -542,7 +550,11 @@ fi
 - **Error Type:** Logic Error
 - **Problem:** The success message was swapped with the failed message. So when the ping was successful, it would print the failure message.
 - **Corrected Code:** `echo "Connection to $host successful"`
-- **Screenshots:** <!-- Insert screenshot here -->
+- **Screenshots:** 
+
+![AT02-9.1](../Final-Report/Assessment%202%20Task%209.1.png)
+
+![AT02-9.2](../Final-Report/Assessment%202%20Task%209.2.png)
 
 #### Error #2
 
@@ -551,7 +563,11 @@ fi
 - **Error Type:** Logic Error
 - **Problem:** The success message was swapped with the failed message. So when the ping didn't reach the host, it would print the success message.
 - **Corrected Code:** `echo "Connection to $host failed"`
-- **Screenshots:** <!-- Insert screenshot here -->
+- **Screenshots:** 
+
+![AT02-9.3](../Final-Report/Assessment%202%20Task%209.3.png)
+
+![AT02-9.4](../Final-Report/Assessment%202%20Task%209.4.png)
 
 ### Testing Results
 
@@ -569,7 +585,9 @@ fi
   Connection to 8.8.8.8 successful
   ```
 - **Status:** ✓ PASSED
-- **Screenshot:** <!-- Insert screenshot here -->
+- **Screenshot:** 
+
+![AT02-9.5](../Final-Report/Assessment%202%20Task%209.5.png)
 
 ---
 
@@ -688,7 +706,11 @@ if __name__ == "__main__":
 - **Error Type:** Logic Error
 - **Problem:** The `i` and `j` indices are repeated in the same order on both sides of the assignment, meaning no swap can occur. The bubble sort will leave the list unsorted.
 - **Corrected Code:** `users[i], users[j] = users[j], users[i]`
-- **Screenshots:** <!-- Insert screenshot here -->
+- **Screenshots:** 
+
+![AT02-10.1](../Final-Report/Assessment%202%20Task%2010.1.png)
+
+![AT02-10.2](../Final-Report/Assessment%202%20Task%2010.2.png)
 
 ### Enhancements Made
 
@@ -698,7 +720,11 @@ if __name__ == "__main__":
 - **Original:** `sys.exit(main())`
 - **Improved:** `main()`
 - **Benefit:** Removing `sys.exit()` makes the code cleaner and easier to read.
-- **Screenshots:** <!-- Insert screenshot here -->
+- **Screenshots:** 
+
+![AT02-10.3](../Final-Report/Assessment%202%20Task%2010.3.png)
+
+![AT02-10.4](../Final-Report/Assessment%202%20Task%2010.4.png)
 
 ### Testing Results
 
@@ -708,7 +734,13 @@ if __name__ == "__main__":
 - **Expected Output:** `output.txt`
 - **Actual Output:** `Python was not found`
 - **Status:** ✗ FAILED
-- **Screenshot:** <!-- Insert screenshot here -->
+- **Screenshot:** 
+
+![AT02-10.5](../Final-Report/Assessment%202%20Task%2010.5.png)
+
+![AT02-10.6](../Final-Report/Assessment%202%20Task%2010.6.png)
+
+![AT02-10.7](../Final-Report/Assessment%202%20Task%2010.7.png)
 
 #### Test 2: Verifying Function
 
@@ -716,7 +748,9 @@ if __name__ == "__main__":
 - **Expected Output:** `output.txt`
 - **Actual Output:** `output.txt`
 - **Status:** ✓ PASSED
-- **Screenshot:** <!-- Insert screenshot here -->
+- **Screenshot:** 
+
+![AT02-10.8](../Final-Report/Assessment%202%20Task%2010.8.png)
 
 ---
 
